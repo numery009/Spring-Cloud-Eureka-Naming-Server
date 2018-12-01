@@ -15,6 +15,8 @@ This is Spring Cloud Netflix Eureka-Naming-Server configuration. There are 2 pro
 11) And in the 2nd terminal run the following command- "java -jar -Dspring.profiles.active=eureka-host2 rsmortgage-service-discovery-high-availability-2.0.jar". (This will active the 2nd profile in the eureka server.)
 12) Now open any browser and hit the following url- "http://localhost:8761/". 
 13) And in the new tab of the browser hit the follwoing url- "http://localhost:8762/".
+14) Add the eureka-host1 and eureka-host2 to the /etc/hosts file. Then http://eureka-host1:8761/ and http://eureka-host2:8762/
+will work.
 
 Now we can see two profile of Eureka-Naming-Server is up and running. 
 
